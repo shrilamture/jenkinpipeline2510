@@ -18,7 +18,7 @@ pipeline {
         stage('CheckEnv') {
             steps {
                 // TEST_ENV will be dev
-                sh 'echo $TEST_ENV inside CheckEnv job job7 after adding audit trail'
+                sh 'echo $TEST_ENV inside CheckEnv job job7 after adding audit trail for build 9'
             }
         }
     }
