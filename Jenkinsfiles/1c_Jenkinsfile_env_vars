@@ -18,7 +18,7 @@ pipeline {
         stage('CheckEnv') {
             steps {
                 // TEST_ENV will be dev
-                sh 'echo $TEST_ENV inside CheckEnv webhook '
+                sh 'echo $TEST_ENV inside CheckEnv'
             }
         }
     }
